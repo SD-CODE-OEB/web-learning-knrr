@@ -1,0 +1,11 @@
+Cntrl+ Z is undo => changes are reversed.
+
+Cntrl + Y is redo => changes are restored.
+
+today, i forgot to ccreate a new file and updated
+code in same file.
+
+git init is used to create a new repository.
+
+a repository is storage for code like a folder or a total codebase.
+the main folder from where our code starts is called as repository.

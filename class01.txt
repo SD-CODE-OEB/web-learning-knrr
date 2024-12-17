@@ -1,0 +1,45 @@
+HTML
+
+has tags to write code
+
+HTML - hypertext markup language
+
+we use various tags to implement different features on web.
+
+opening tag and closed tag
+<p>, <h1> 
+</h1>, </p>
+
+meta-data => data which is not included in the code.
+meta-data is included inside the head tag.
+ex: 
+<head>
+<title>
+Learning HTML
+</title>
+</head>
+
+Latest version of HTML we are using is HTML5.
+
+if we write text In comment in python :
+it will not be visible to users, only to the programmer who has wriiten the code.
+
+to style a web page,
+we write css in a html file.
+we use a special tag called style .
+ex:
+<style>
+</style>
+
+I am telling my browser that I want to change the bg-color of my body tag to yellow
+
+In HTML there are some tags which are known as self-closing tags.
+they do not require a cloding tag.
+ex:
+<tag-name /> 
+
+svg is a format of image.
+.png, .jpg thse are formats of images.
+.svg
+map tag is used for 3d view of an image for set of images.
+

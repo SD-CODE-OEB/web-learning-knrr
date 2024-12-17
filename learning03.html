@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML 03</title>
+    <!--
+    This type of CSS where we write CSS in style tag in HTML is know as Internal CSS.
+    -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*
+the name body of tag <body> we use in css is known as selector.
+*/
+        body {
+            background-color: gray;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            background-color: teal;
+            font-size: 80px;
+            /*
+            this is a comment which is used for css.
+            */
+            padding: 0 20px;
+        }
+
+        h2 {
+            font-size: 50px;
+            padding: 0 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h3 {
+            font-size: 35px;
+            padding: 0 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            padding: 5px 20px;
+        }
+
+        hr {
+            border: 1px solid #fafafa;
+            margin: 20px auto;
+        }
+
+        div {
+            background-color: turquoise;
+            color: white;
+        }
+
+        .box {
+            background-color: blue;
+        }
+
+        #b-1 {
+            background-color: yellow;
+            color: black;
+        }
+
+        #b-5 {
+            Background-color: yellow;
+            Color: white;
+            /*
+             color prop-1 
+             */
+        }
+
+        #b-5 {
+            Color: black
+                /*
+            color prop-2
+            */
+        }
+
+
+        /*
+        to give seperate css properties to similar tags or to different tags we use classes and id's
+        */
+    </style>
+</head>
+<!--
+This is a comment in HTML.
+-->
+
+<body>
+    <h1>Hello World!!</h1>
+    <hr />
+    <hr />
+    <hr />
+    <h2 style="width:100%;text-align:center;">This is a tutorial</h2>
+    <hr />
+    <hr />
+    <!-- This is know as Inline Styling -->
+    <div id="b-1" class="box container b">
+        <h3 class="heading">Frontend Development</h3>
+        <p>Frontend development is the practice of producing HTML, CSS, and JavaScript for a website or Web Application
+            so that a user can see and interact with them directly. The challenge associated with frontend development
+            is
+            that the tools and techniques used to create the front end of a website change constantly and so the
+            developer
+            needs to constantly be aware of how the field is developing.</p>
+    </div>
+    <hr>
+    <div id="b-2" class="box container b">
+        <h3 class="heading">What is HTML?</h3>
+        <p>HTML stands for Hyper Text Markup Language. It is used to create web pages. It is the standard markup
+            language
+            for documents designed to be displayed in a web browser. It can be assisted by technologies such as
+            Cascading
+            Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+    </div>
+    <hr>
+    <div id="b-3" class="box container b">
+        <h3 class="heading">What is CSS?</h3>
+        <p>CSS stands for Cascading Style Sheets. It is used to style web pages. It is a style sheet language used for
+            describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone
+            technology of the World Wide Web, alongside HTML and JavaScript.</p>
+    </div>
+    <hr>
+    <div id="b-4" class="box container b">
+        <h3 class="heading">What is JavaScript?</h3>
+        <p>JavaScript is a programming language that conforms to the ECMAScript specification. JavaScript is high-level,
+            often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing,
+            prototype-based
+            object-orientation, and first-class functions.</p>
+    </div>
+    <hr>
+    <div id="b-5" class="box container b">
+        <h3 class="heading">Demo heading</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, rerum. Porro ratione facilis harum
+            aliquam, temporibus facere necessitatibus aperiam placeat asperiores dicta soluta aliquid recusandae itaque
+            consectetur, praesentium, nemo fugit.
+        </p>
+    </div>
+</body>
+
+</html>

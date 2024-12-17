@@ -1,0 +1,44 @@
+HTML selectors, id's and classes and thier use for css.
+
+
+We should not use any tags except self-closing tags in a <p> tag,i.e., paragraph tag.
+The main thing to remeber are the major tags which can be used in real world projects.
+in real world what happens, we do not focus on tags, we just focus on the CSS we give to the tags
+
+hr tag => is used to draw a horizontal line on the web page.
+
+In C we saw that there are octal, hexadecimal and binary numbers.
+now in css for styling with colors, we use hexadecimal numbers.
+0-9  and A-F
+alphabets and numbers re used for styling.
+
+
+Inline Styling is done within the tag itself.
+ex:
+<div style="color: red; font-size: 20px;">Hello World</div>
+Internal styling is done inside the head tag of HTML.
+
+head tag has meta-data.
+using head tag we tell browser that we are using css in our code.
+
+we shpould always focus on good practices of coding.
+these are the things which are asked majorly in interviews.
+
+To make our code readable and understand where we are using various tags for various pupposes we something called classes and id's.
+
+first rule of using id: give a unique name which should not be used by any other tag.
+if we give more than one id to a tag, it will break the first rule
+
+in class: we can either give a unique name or a common name, but in id we definately have to give a unique name.
+
+always remember the spelling colour which we use in programming is color.
+
+16-12-2024
+
+
+we learned:
+- p, pre, div, section
+-css styling => inline, internal
+- selectors in css and names for HTML tags
+-id's and classes for HTML tags
+- # and . for id's and classes in CSS.
