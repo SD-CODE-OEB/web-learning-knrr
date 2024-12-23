@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning HTML&CSS-04</title>
+    <style>
+        /*we want to give spaces to divs*/
+        div {
+            margin: 10px;
+            display: block;
+        }
+
+        div>* {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
-    <fieldset>
+    <!-- <fieldset>
+
         <legend>
             <h1>
                 Legend
@@ -19,7 +31,71 @@
         </mark>
         <meter value="0.8">80%</meter>
         <progress value="50" max="200">50%</progress>
-    </fieldset>
+    </fieldset> -->
+    <!-- used to collect inputs from user. -->
+    <form>
+        <div>
+            <label for="uname">
+                Username
+            </label>
+            <!-- the id in input should match the for property in label -->
+            <input type="text" id="uname" placeholder="Enter a text" />
+        </div>
+        <div>
+            <label for="number-input">Mobile Number</label>
+            <!-- we have to link these two tags, we can link them using name property -->
+            <input type="number" placeholder="Enter a number" name="number" id="number-input" />
+        </div>
+        <div>
+            <label for="email">
+                Email
+            </label>
+            <input type="email" id="email" placeholder="Enter a email" />
+        </div>
+        <div>
+            <label for="pwd">
+                Password
+            </label>
+            <!-- we want this input field for our password -->
+            <input type="password" id="pwd" placeholder="Enter Password" />
+        </div>
+        <div>
+            <label for="">
+                URL
+            </label>
+            <input type="text" name="" id="" placeholder="Enter url">
+        </div>
+        <div>
+            <input type="button" value="Text in Button" />
+            <input type="color" name="" id="" />
+            <input type="date" name="" id="">
+            <input type="range" name="" id="" min="10" max="100">
+            <input type="file" name="" id="">
+            <input type="hidden" name="">
+            <label for="ck-box">Apple</label>
+            <input type="checkbox" name="ck-box" id="ck-box">
+            <label for="c-box">Mango</label>
+            <input type="checkbox" name="ck-box" id="c-box">
+            <input type="image" src="" alt="">
+            <p></p>
+        </div>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+    <script>
+        function showText() {
+            const box = document.getElementById('text-box');
+            box.addEventListener('input', () => {
+                console.log(box.value);
+            });
+        }
+        const pass = document.getElementById('pwd');
+        if (pass.length === 8) {
+            console.log("password valid")
+        }
+        showText();
+    </script>
 </body>
 
 </html>

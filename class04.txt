@@ -1,0 +1,16 @@
+today we will see all about data and forms in html.
+
+IN an input tag we can write any kind of data like text, password, email etc.
+ex: 
+<input /> : it is a self closing tag.
+
+in every programming language we have words, thse words are majorly known as Strings.
+
+when we give type text to a input tag, it takes string type input.
+
+A form help submit data.
+
+The web uses JavaScript as its primary programming language.
+IF  type = "email" then it will take email type input.
+
+the feature of clicking on text and enabling input feild can be achived using a tag called label.
